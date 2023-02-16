@@ -1,0 +1,67 @@
+server:
+  port: 3001
+  origin: 'http://localhost:3001'
+
+db:
+  host: 'localhost'
+  type: 'postgres'
+  port: 5432
+  username: 'postgres'
+  password: '13julli1992'
+  synchronize: false
+
+jwt:
+  # expiresIn: 10
+  expiresIn: 900
+  refreshExpiresIn: 604800
+  cookieExpiresIn: 604800
+
+app:
+  fallbackLanguage: 'en'
+  name: 'Ardwells'
+  version: 'v0.1'
+  description: 'Official Ardwells API'
+  appUrl: 'http://localhost:3000'
+  frontendUrl: 'http://localhost:3000'
+  sameSite: true
+
+mail:
+  host: 'smtp.mailtrap.io'
+  port: 2525
+  user: 'f4a511d60957e6'
+  pass: '7522797b96cef0'
+  from: 'ardwells'
+  fromMail: 'ardwells@gmail.com'
+  preview: true
+  secure: false
+  ignoreTLS: true
+  queueName: 'ardwells-mail'
+
+queue:
+  driver: 'redis'
+  host: 'localhost'
+  port: 6379
+  db: ''
+  password: ''
+  username: ''
+
+throttle:
+  global:
+    ttl: 60
+    limit: 60
+  login:
+    prefix: 'login_fail_throttle'
+    limit: 5
+    duration: 2592000
+    blockDuration: 3000
+
+twofa:
+  authenticationAppNAme: 'ardwells'
+
+winston:
+  groupName: 'ardwells'
+  streamName: 'ardwells-stream'
+  awsAccessKeyId: ''
+  awsSecretAccessKey: ''
+  awsRegion: ''
+  

@@ -1,0 +1,26 @@
+db:
+  host: 'localhost'
+  type: 'postgres'
+  port: 5432
+  username: 'postgres'
+  password: '13julli1992'
+  synchronize: false
+
+jwt:
+  secret: 'example@123'
+  # expiresIn: 10
+  expiresIn: 900
+  refreshExpiresIn: 604800
+  cookieExpiresIn: 604800
+
+mail:
+  host: 'smtp.mailtrap.io'
+  port: 587
+  user: 'e447223c005108'
+  pass: 'a6279fdba3a2fc'
+  from: 'ardwells'
+  fromMail: 'ardwells.developer@gmail.com'
+  preview: true
+  secure: false
+  ignoreTLS: true
+  queueName: 'ardwells-mail'

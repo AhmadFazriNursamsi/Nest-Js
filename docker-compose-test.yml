@@ -1,0 +1,15 @@
+version: '3'
+services:
+  ardwells-postgres:
+    image: postgres
+    ports:
+      - '6543:5432'
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=ardwells
+
+  redis:
+    image: redis
+    ports:
+      - '6379:6379'
