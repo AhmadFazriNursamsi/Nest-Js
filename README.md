@@ -1,14 +1,11 @@
 <div align="center">
 </div><br>
 <h1 align="center">
-  Ardwells (NestJS Headless API)
+  Nursyams (NestJS Headless API)
 </h1>
 
 <p align="center">
-<a href="https://www.buymeacoffee.com/ardwells" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-</p>
-<p align="center">
-  <sub>Created by <a href="https://www.linkedin.com/in/ardiansyah-welly/">Welli Ardiansyah</a>.</sub>
+  <sub>Created by <a href="https://ahmadfazrinursamsi.github.io/">Ahmad Fazri Nursamsi</a>.</sub>
 </p>
 
 
